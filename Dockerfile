@@ -4,7 +4,7 @@ LABEL maintainer="relief melone, relief.melone@gmail.com"
 
 # Install NodeJS
 RUN apk update && \
-    apk add nodejs npm python make curl g++
+    apk add nodejs npm make curl g++
 
 # Install Lua Module
 RUN apk add --no-cache nginx-mod-http-lua
